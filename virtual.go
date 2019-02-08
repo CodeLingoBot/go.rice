@@ -21,7 +21,7 @@ type virtualFile struct {
 	closed                 bool  // closed when true
 }
 
-// create a new virtualFile for given EmbeddedFile
+// newVirtualFile; create a new virtualFile for given EmbeddedFile
 func newVirtualFile(ef *embedded.EmbeddedFile) *virtualFile {
 	vf := &virtualFile{
 		EmbeddedFile: ef,
@@ -146,7 +146,7 @@ type virtualDir struct {
 	closed bool
 }
 
-// create a new virtualDir for given EmbeddedDir
+// newVirtualDir; create a new virtualDir for given EmbeddedDir
 func newVirtualDir(ed *embedded.EmbeddedDir) *virtualDir {
 	vd := &virtualDir{
 		EmbeddedDir: ed,

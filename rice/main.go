@@ -61,7 +61,7 @@ func main() {
 	}
 }
 
-// helper function to get *build.Package for given path
+// pkgForPath; helper function to get *build.Package for given path
 func pkgForPath(path string) *build.Package {
 	// get pwd for relative imports
 	pwd, err := os.Getwd()

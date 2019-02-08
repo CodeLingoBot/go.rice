@@ -27,7 +27,7 @@ var flags struct {
 // flags parser
 var flagsParser *goflags.Parser
 
-// initFlags parses the given flags.
+// parseArguments parses the given flags.
 // when the user asks for help (-h or --help): the application exists with status 0
 // when unexpected flags is given: the application exits with status 1
 func parseArguments() {

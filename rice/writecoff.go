@@ -9,7 +9,7 @@ import (
 	"github.com/akavel/rsrc/coff"
 )
 
-// copied from github.com/akavel/rsrc
+// writeCoff; copied from github.com/akavel/rsrc
 // LICENSE: MIT
 // Copyright 2013-2014 The rsrc Authors. (https://github.com/akavel/rsrc/blob/master/AUTHORS)
 func writeCoff(coff *coff.Coff, fnameout string) error {
